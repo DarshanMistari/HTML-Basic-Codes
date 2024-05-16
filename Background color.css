@@ -1,0 +1,43 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    color: brown;
+    background-color: aliceblue;
+}
+h2
+{
+    color: chocolate;
+    background-color: antiquewhite;
+}
+h3
+{
+    color: darkolivegreen;
+    background-color: azure;
+}
+h4
+{
+    color: aliceblue;
+    background-color:brown;
+}
+h5
+{
+    color: midnightblue;
+    background-color: lavender;
+}
+h6
+{
+    color: darkred;
+    background-color: beige;
+}
+button
+{
+    color: black;
+    background-color: darkseagreen;
+}
+link
+{
+    color: blue;
+}
