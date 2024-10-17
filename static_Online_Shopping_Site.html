@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Online Shopping Site</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color: darkslategrey;
+        }
+        header h1{
+            padding: 10px;
+            text-align: center;
+            background-color:darkslategray;
+            color: white;
+        }
+        nav{
+            padding: 10px;
+            background-color: burlywood;
+        }
+        nav a{
+            margin-left:40px;
+            color: brown;
+            background-color: burlywood;
+            font-weight: bold;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product{
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            background-color: lemonchiffon;
+            border: 2px solid #000;
+            border-radius: 5px; 
+            text-align: center; 
+        }
+        .product img{
+            max-width: 100%;
+            height: auto;
+            border-bottom: 10px;
+        }
+        .product h1{
+            padding: 10px;
+            background-color: lemonchiffon;
+            text-align: center;
+            font-weight: bold;
+        }
+        .product p{
+            font-size:1rem;
+            background-color: lemonchiffon;
+            text-align: center;
+        }
+        .price{
+            padding: 5px;
+            background-color: lightgoldenrodyellow;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.9rem;
+
+        }
+        .product button{
+            padding: 7px;
+            margin: 10px;
+            font-weight: bold;
+            background-color: rgb(217, 212, 212);
+        }
+        footer p{
+            text-align: center;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Shopping Site</h1>
+    </header>
+ </body>   
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+
+        <div class="product">
+            <img src="Box-Image1.jpg">
+            <h1>Campus Running Shoes</h1>
+            <p>Running Shoes for Mens and Womens</p>
+            <div class="price">1500Rs</div>
+            <button type="submit">Add to Cart </button>
+        </div>
+        
+        <div class="product">
+            <img src="Box-Image2.jpg" alt="product">
+            <h1>Samsung Samrt Watch</h1>
+            <p>Smart Watch for Mens and Boys</p>
+            <div class="price">2000RS</div>
+            <button type="submit">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="Box-Image3.jpg" alt="product">
+            <h1>Samsung Altra Pro Max</h1>
+            <p>Ram 16gb Storage 256gb back camera 95mp front camera 65mp</p>
+            <div class="price">150000RS</div>
+            <button type="submit">Add to Cart</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy 2024 Online Shoping Site</p>
+    </footer>
+    
+</html>
