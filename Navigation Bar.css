@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#content{
+    height: 60px;
+    width: auto;
+    background-color: #0f1111;
+}
+#amazone{
+    font-size: 25px;
+    color: rgb(129, 97, 15);
+}
+button{
+    background-color: #f08804;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+a{
+    margin-right: 180px;
+}
