@@ -1,0 +1,20 @@
+div{
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: absolute;
+    animation-name: circle;
+    animation-duration:0.25s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle{
+from{background-color: red;}
+to{background-color: blue;}
+}
